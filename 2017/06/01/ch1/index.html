@@ -13,25 +13,25 @@
     
     
     
-    <title>No title | Coleer</title>
+    <title>第一章：什么是作用域? | Coleer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
     <meta name="keywords" content="">
-    <meta name="description" content="你不懂JS：作用域与闭包第一章：什么是作用域？[TOC] 几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 状态。 如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。 但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 存活 在哪里？换句话说，它们">
+    <meta name="description" content="你不懂JS：作用域与闭包第一章：什么是作用域？几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 状态。 如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。 但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 存活 在哪里？换句话说，它们被存储在哪儿">
 <meta name="keywords">
 <meta property="og:type" content="article">
-<meta property="og:title" content="No title">
+<meta property="og:title" content="第一章：什么是作用域?">
 <meta property="og:url" content="https://coleer.github.io/2017/06/01/ch1/index.html">
 <meta property="og:site_name" content="Coleer">
-<meta property="og:description" content="你不懂JS：作用域与闭包第一章：什么是作用域？[TOC] 几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 状态。 如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。 但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 存活 在哪里？换句话说，它们">
+<meta property="og:description" content="你不懂JS：作用域与闭包第一章：什么是作用域？几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 状态。 如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。 但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 存活 在哪里？换句话说，它们被存储在哪儿">
 <meta property="og:image" content="https://coleer.github.io/2017/06/01/ch1/fig1.png">
-<meta property="og:updated_time" content="2017-05-23T05:41:21.327Z">
+<meta property="og:updated_time" content="2017-06-01T12:12:37.243Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="No title">
-<meta name="twitter:description" content="你不懂JS：作用域与闭包第一章：什么是作用域？[TOC] 几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 状态。 如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。 但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 存活 在哪里？换句话说，它们">
+<meta name="twitter:title" content="第一章：什么是作用域?">
+<meta name="twitter:description" content="你不懂JS：作用域与闭包第一章：什么是作用域？几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 状态。 如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。 但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 存活 在哪里？换句话说，它们被存储在哪儿">
 <meta name="twitter:image" content="https://coleer.github.io/2017/06/01/ch1/fig1.png">
     
     <link rel="shortcut icon" href="/favicon.ico">
@@ -121,7 +121,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis"></div>
+        <div class="flex-col header-title ellipsis">第一章：什么是作用域?</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -143,7 +143,7 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title"></h1>
+        <h1 class="title">第一章：什么是作用域?</h1>
         <h5 class="subtitle">
             
                 <time datetime="2017-06-01T11:58:03.907Z" itemprop="datePublished" class="page-time">
@@ -174,7 +174,7 @@
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title"></h1>
+        <h1 class="post-card-title">第一章：什么是作用域?</h1>
         <div class="post-meta">
             <time class="post-time" title="2017-06-01 19:58:03" datetime="2017-06-01T11:58:03.907Z"  itemprop="datePublished">2017-06-01</time>
 
@@ -191,8 +191,7 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h1 id="你不懂JS：作用域与闭包"><a href="#你不懂JS：作用域与闭包" class="headerlink" title="你不懂JS：作用域与闭包"></a>你不懂JS：作用域与闭包</h1><h1 id="第一章：什么是作用域？"><a href="#第一章：什么是作用域？" class="headerlink" title="第一章：什么是作用域？"></a>第一章：什么是作用域？</h1><p>[TOC]</p>
-<p>几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 <em>状态</em>。</p>
+            <h1 id="你不懂JS：作用域与闭包"><a href="#你不懂JS：作用域与闭包" class="headerlink" title="你不懂JS：作用域与闭包"></a>你不懂JS：作用域与闭包</h1><h1 id="第一章：什么是作用域？"><a href="#第一章：什么是作用域？" class="headerlink" title="第一章：什么是作用域？"></a>第一章：什么是作用域？</h1><p>几乎所有语言的最基础模型之一就是在变量中存储值，并且在稍后取出或修改这些值的能力。事实上，在变量中存储值和取出值的能力，给程序赋予了 <em>状态</em>。</p>
 <p>如果没有这样的概念，一个程序虽然可以执行一些任务，但是它们将会受到极大的限制而且不会非常有趣。</p>
 <p>但是在我们的程序中纳入变量，引出了我们现在将要解决的最有趣的问题：这些变量 <em>存活</em> 在哪里？换句话说，它们被存储在哪儿？而且，最重要的是，我们的程序如何在需要它们的时候找到它们？</p>
 <p>回答这些问题需要一组明确定义的规则，它定义如何在某些位置存储变量，以及如何在稍后找到这些变量。我们称这组规则为：<em>作用域</em>。</p>
@@ -348,7 +347,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2017-05-23T05:41:21.327Z" itemprop="dateUpdated">2017-05-23 13:41:21</time>
+    最后更新时间：<time datetime="2017-06-01T12:12:37.243Z" itemprop="dateUpdated">2017-06-01 20:12:37</time>
 </span><br>
 
 
@@ -381,7 +380,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://coleer.github.io/2017/06/01/ch1/&title=Coleer&pic=https://coleer.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://coleer.github.io/2017/06/01/ch1/&title=《第一章：什么是作用域?》 — Coleer&pic=https://coleer.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -391,7 +390,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://coleer.github.io/2017/06/01/ch1/&title=Coleer&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://coleer.github.io/2017/06/01/ch1/&title=《第一章：什么是作用域?》 — Coleer&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -401,7 +400,7 @@
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Coleer&url=https://coleer.github.io/2017/06/01/ch1/&via=https://coleer.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《第一章：什么是作用域?》 — Coleer&url=https://coleer.github.io/2017/06/01/ch1/&via=https://coleer.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
@@ -523,7 +522,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://coleer.github.io/2017/06/01/ch1/&title=《No title》 — Coleer&pic=https://coleer.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://coleer.github.io/2017/06/01/ch1/&title=《第一章：什么是作用域?》 — Coleer&pic=https://coleer.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -533,7 +532,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://coleer.github.io/2017/06/01/ch1/&title=《No title》 — Coleer&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://coleer.github.io/2017/06/01/ch1/&title=《第一章：什么是作用域?》 — Coleer&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -543,7 +542,7 @@
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《No title》 — Coleer&url=https://coleer.github.io/2017/06/01/ch1/&via=https://coleer.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《第一章：什么是作用域?》 — Coleer&url=https://coleer.github.io/2017/06/01/ch1/&via=https://coleer.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
